@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 export CUDA_VISIBLE_DEVICES=0
 
-WORK_DIR="/DialogueCRN" # your work path
-DATA_DIR="/DialogueCRN/data/meld/MELD_features_raw.pkl"
+WORK_DIR="$(pwd)" # your work path
+DATA_DIR="${WORK_DIR}/data/iemocap/IEMOCAP_features.pkl" # your data path
 
 
 EXP_NO="dialoguecrn_base"

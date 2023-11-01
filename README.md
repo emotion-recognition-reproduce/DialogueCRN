@@ -42,8 +42,8 @@ Besides, another alternative is to use BERT/RoBERTa to process text features, wh
 For training model on IEMOCAP dataset, you can refer to the following:
     
 ```bash
-WORK_DIR="/DialogueCRN" # your work path
-DATA_DIR="/DialogueCRN/data/iemocap/IEMOCAP_features.pkl" # your data path
+WORK_DIR="$(pwd)" # your work path
+DATA_DIR="${WORK_DIR}/data/iemocap/IEMOCAP_features.pkl" # your data path
 
 EXP_NO="dialoguecrn_base"
 DATASET="iemocap"
